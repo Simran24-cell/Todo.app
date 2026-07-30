@@ -6,3 +6,7 @@ tasks.append("Learn Git")
 print(tasks)
 tasks.remove("Learn Git")
 print("Task deleted successfully")
+task = input("Enter your task: ")
+tasks.append(task)
+
+print(tasks)
